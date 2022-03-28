@@ -1,0 +1,215 @@
+/* all commands of youtube page */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 15px;
+}
+
+body{
+    font-family:'Roboto', sans-serif;
+}
+
+
+/* all commands of header  */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+    padding: 0px 16px;
+}
+
+/* all commands of left-section */
+ .left-section {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.left-section img{
+    width: 46%;
+    padding-left: 16px;
+}
+
+/* all commands of min-section */
+.mid-section{
+    display: flex;
+    align-items: center;
+    margin-left: -9%;
+}
+
+.mid-section  form{
+    display: flex;
+    width: 628px;
+    height: 35px;
+}
+
+.mid-section  form input{
+    width: 100%;
+    border-radius: 3px 0px 0px 3px;    
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #d3d3d3;    
+    border-right: none;
+}
+
+.mid-section  form button{
+    width: 80px;
+    border: 1px solid #d3d3d3;    
+    cursor: pointer;
+    border-radius: 0px 3px 3px 0px;
+    transition: .6s;
+}
+
+.mid-section  form button:hover{
+    background-color: #aaa;
+
+}
+.mid-section  form em{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 30px;
+    margin-top:     2px;
+    border-radius: 50%;
+    background-color: #f5f4fd;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+
+/* all commands of right-section */
+.right-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-right: 20px;
+}
+
+.right-section a{
+    text-decoration: none;
+    color: black;
+}
+
+/*links of youtube*/
+.content{
+    width: 100%;
+    height: calc(100vh - 56px);
+    background-color: rgb(0, 0, 0, 0.05);
+    display: flex;
+}
+
+.content aside{
+    background-color: #fff;
+    width: 280px;
+    height: 100%;
+    overflow-y: auto;
+}
+
+ nav{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+    padding-right: 15px;
+}
+
+.links{
+    display: flex;
+    padding: 5px 15px;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.links span{
+    margin-left: 30px;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 30px;
+    color: black;
+}
+
+.active{
+    background-color: rgb(230, 225, 225);
+}
+
+.links:hover{
+    background-color: rgb(0, 0, 0, 0.05);
+}
+
+#active-span{
+    font-weight: 500;
+}
+
+
+hr{
+    margin: 15px 0;
+    border: none;
+    height: 1px;
+    background-color: rgb(230, 225, 225);
+}
+
+p{
+    margin: 10px;
+    color: rgb(110, 109, 109);
+    font-weight: 500;
+}
+
+.prof{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+
+/*section youtube */
+
+section{
+    width: calc(100% - 280px)  ;
+    height: 100%;
+    padding: 35px 15px;
+    border-top: 1px solid rgb(211, 210, 210);
+    overflow-y: auto;
+}
+
+.con{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.card{
+    width: 330px;
+    height: 180px;
+    margin-bottom: 110px;
+    
+}
+
+.card img{
+    width: 330px;
+    height: 180px;
+}
+
+.card .profil img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+   margin: 10px;
+    
+}
+
+.fin{
+    display: flex;
+    
+}
